@@ -12,7 +12,7 @@ public class Cat {
          System.out.println("Hello Tom!");
      }
 
-
+public String catName;
     private String name;
     public int age = 20;
     protected String adress;
@@ -24,6 +24,13 @@ public class Cat {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+
+    @Override
+    public String toString() {
+        return
+                 name ;
     }
 }
 
